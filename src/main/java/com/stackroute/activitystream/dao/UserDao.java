@@ -10,5 +10,7 @@ public interface UserDao {
 	 User get(String emailId);
 	 List<User> list();
 	 User validate(String emailId,String password);
+	
+	//This method is not required as you have get(String emailID).
 	 boolean isUserExist(String emailId);
 }
