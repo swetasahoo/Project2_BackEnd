@@ -30,6 +30,8 @@ public class Message implements Serializable
 	private String messageType;
 	private String  circleName;
 	
+	//where is receiverEmailID ?  User can send message one-to-one.
+	
 	public int getMessageId() {
 		return messageId;
 	}
