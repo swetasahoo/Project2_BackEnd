@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.stackroute.activitystream.test.UserTest" time="0" tests="13" errors="0" skipped="12" failures="0">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_77\jre\bin"/>
+    <property name="java.vm.version" value="25.77-b03"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="maven.multiModuleProjectDirectory" value="E:\D Drive\DTV3\workspace\Project2\ActivityStreamBackend"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=";"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="E:\D Drive\DTV3\workspace\Project2\ActivityStreamBackend"/>
+    <property name="java.runtime.version" value="1.8.0_77-b03"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_77\jre\lib\endorsed"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\asus\AppData\Local\Temp\"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="classworlds.conf" value="E:\D Drive\DTV3\workspace\Project2\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf1744382879089509688.tmp"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_77\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:/Program Files/Java/jre1.8.0_77/bin/server;C:/Program Files/Java/jre1.8.0_77/bin;C:/Program Files/Java/jre1.8.0_77/lib/amd64;C:\Program Files (x86)\pythan\;C:\Program Files (x86)\pythan\Scripts;C:\oraclexe\app\oracle\product\11.2.0\server\bin;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\Java\jdk1.8.0_77\bin;C:\Program Files (x86)\Skype\Phone\;D:\nodejs\;C:\Program Files\MongoDB\Server\3.4\bin;D:\apache-maven-3.3.9\\bin;C:\Program Files (x86)\MySQL\MySQL Fabric 1.5 &amp; MySQL Utilities 1.5\;C:\Program Files (x86)\MySQL\MySQL Fabric 1.5 &amp; MySQL Utilities 1.5\Doctrine extensions for PHP\;C:\Users\asus\AppData\Roaming\npm;%USERPROFILE%\AppData\Local\Microsoft\WindowsApps;;E:\NIIT Sahidnagar\software\eclipse;;."/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.0"/>
+    <property name="user.home" value="C:\Users\asus"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="user.name" value="asus"/>
+    <property name="java.class.path" value="/E:/NIIT Sahidnagar/software/eclipse/plugins/org.eclipse.m2e.maven.runtime_1.7.0.20160603-1931/jars/plexus-classworlds-2.5.2.jar"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_77\jre"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -B install"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="en"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_77"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_77\jre\lib\ext;C:\WINDOWS\Sun\Java\lib\ext"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_77\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_77\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_77\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_77\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_77\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_77\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_77\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_77\jre\classes"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="E:\D Drive\DTV3\workspace\Project2\ActivityStreamBackend\EMBEDDED"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase name="checkAuthenticationByWrongCredentials" classname="com.stackroute.activitystream.test.UserTest" time="0">
+    <skipped/>
+    <system-out><![CDATA[2017-09-01 14:58:42.465  INFO 13140 --- [           main] .b.t.c.SpringBootTestContextBootstrapper : Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.stackroute.activitystream.test.UserTest], using SpringBootContextLoader
+2017-09-01 14:58:42.467  INFO 13140 --- [           main] o.s.t.c.support.AbstractContextLoader    : Could not detect default resource locations for test class [com.stackroute.activitystream.test.UserTest]: no resource found for suffixes {-context.xml, Context.groovy}.
+2017-09-01 14:58:42.477 DEBUG 13140 --- [           main] .b.t.c.SpringBootTestContextBootstrapper : @TestExecutionListeners is not present for class [com.stackroute.activitystream.test.UserTest]: using defaults.
+2017-09-01 14:58:42.481  INFO 13140 --- [           main] .b.t.c.SpringBootTestContextBootstrapper : Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+2017-09-01 14:58:42.485  INFO 13140 --- [           main] .b.t.c.SpringBootTestContextBootstrapper : Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@2b62475a, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@4990b335, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@624d778e, org.springframework.test.context.support.DirtiesContextTestExecutionListener@39ae6408, org.springframework.test.context.transaction.TransactionalTestExecutionListener@cfacf0, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@4c8abec7, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@45f241df, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@f36f34d, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@72e36677, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@6b86826a, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@3c2dda7c, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@4b9fa2f]
+]]></system-out>
+  </testcase>
+  <testcase name="userExist_Success" classname="com.stackroute.activitystream.test.UserTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="getUserbyEmailId_Fail" classname="com.stackroute.activitystream.test.UserTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="getUserbyEmailId_Success" classname="com.stackroute.activitystream.test.UserTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="checkAuthentication" classname="com.stackroute.activitystream.test.UserTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="checkAuthentication_Fail" classname="com.stackroute.activitystream.test.UserTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="createUserTestCase" classname="com.stackroute.activitystream.test.UserTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="checkAuthenticationByNullUserName" classname="com.stackroute.activitystream.test.UserTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="updateUser_Success" classname="com.stackroute.activitystream.test.UserTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="getUserList_Success" classname="com.stackroute.activitystream.test.UserTest" time="0"/>
+  <testcase name="userExist_Fail" classname="com.stackroute.activitystream.test.UserTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="updateUser_Fail" classname="com.stackroute.activitystream.test.UserTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="checkAuthenticationByNullPassword" classname="com.stackroute.activitystream.test.UserTest" time="0">
+    <skipped/>
+  </testcase>
+</testsuite>

@@ -1,0 +1,16 @@
+com\stackroute\activitystream\dao\UserMessageDao.class
+com\stackroute\activitystream\daoimpl\UserMessageDaoImpl.class
+com\stackroute\activitystream\dao\CircleDao.class
+com\stackroute\activitystream\dao\MessageDao.class
+com\stackroute\activitystream\model\User.class
+com\stackroute\activitystream\daoimpl\MessageDaoImpl.class
+com\stackroute\activitystream\daoimpl\UserCircleDaoImpl.class
+com\stackroute\activitystream\model\UserCircle.class
+com\stackroute\activitystream\daoimpl\CircleDaoImpl.class
+com\stackroute\activitystream\model\Message.class
+com\stackroute\activitystream\model\UserMessage.class
+com\stackroute\activitystream\BackendService\ServiceApplication.class
+com\stackroute\activitystream\dao\UserCircleDao.class
+com\stackroute\activitystream\dao\UserDao.class
+com\stackroute\activitystream\daoimpl\UserDaoImpl.class
+com\stackroute\activitystream\model\Circle.class
