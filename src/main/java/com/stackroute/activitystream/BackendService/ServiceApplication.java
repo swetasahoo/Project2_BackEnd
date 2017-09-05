@@ -1,4 +1,5 @@
 package com.stackroute.activitystream.BackendService;
+//package name should not contain captial letter
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
