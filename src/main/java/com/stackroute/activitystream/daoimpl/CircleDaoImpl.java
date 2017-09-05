@@ -23,6 +23,7 @@ import com.stackroute.activitystream.model.Circle;
 @Transactional
 public class CircleDaoImpl implements CircleDao {
 
+	//Use private access modifiers
 	@Autowired
 	SessionFactory sessionFactory;
 
@@ -85,14 +86,16 @@ public class CircleDaoImpl implements CircleDao {
 
 	}*/
 
+	//Should return only circle ids.  all circle details
 	public List<Circle> getAllCircles() {
-
+               //Use hibernate restrictions
 		String hql = "from Circle where status= 'active'";
 		Query query = sessionFactory.getCurrentSession().createQuery(hql);
 		return query.list();
 	}
 
 	public List<Circle> getCircleByUser(String createdBy) {
+		//Use hibernate restrictions
 		String hql = "from Circle  where createdBy= '" + createdBy + "' and status='active'";
 		Query query = sessionFactory.getCurrentSession().createQuery(hql);
 
@@ -101,6 +104,7 @@ public class CircleDaoImpl implements CircleDao {
 
 	
 	public boolean isCircleExist(String circleName) {
+		//Use hibernate restrictions
 		String hql="from Circle where circleName='"+circleName+"'";
 		Query query = sessionFactory.getCurrentSession().createQuery(hql);
 		if((Circle) query.uniqueResult()!=null)
