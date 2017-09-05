@@ -15,13 +15,13 @@ import org.springframework.transaction.annotation.Transactional;
 import com.stackroute.activitystream.dao.MessageDao;
 import com.stackroute.activitystream.model.Message;
 import com.stackroute.activitystream.model.UserMessage;
-
+//See the comments on MessageDao and modified accordingly.
 @Repository("messageDAO")
 @Component
 @Transactional
 public class MessageDaoImpl implements MessageDao{
 
-
+//Use private access specifiers
 	@Autowired
 	SessionFactory sessionFactory;
 	
